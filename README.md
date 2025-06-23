@@ -52,10 +52,6 @@ To start the application in a `Production Environment`, run:
 npm run build
 ```
 
-### Database Configuration
-
----
-
 ### 💡 **Troubleshooting**
 
 N/A
