@@ -1,5 +1,6 @@
 import {
   // logo,
+  linkedin,
   creator,
   mobile,
   backend,
@@ -7,7 +8,7 @@ import {
   angular,
   csharp,
   powerbi,
-  // github,
+  github,
   python,
   rust,
   sql,
@@ -41,7 +42,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "tech",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -70,88 +75,45 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    category: "Frontend",
+    items: [
+      { name: "HTML", icon: html },
+      { name: "CSS", icon: css },
+      { name: "JavaScript", icon: javascript },
+      { name: "TypeScript", icon: typescript },
+      { name: "React JS", icon: reactjs },
+      { name: "Angular", icon: angular },
+      { name: "Tailwind CSS", icon: tailwind },
+      { name: "Three JS", icon: threejs },
+      { name: "figma", icon: figma },
+      { name: "Vite", icon: vite },
+      { name: "PowerBI", icon: powerbi },
+    ],
   },
   {
-    name: "CSS 3",
-    icon: css,
+    category: "Backend",
+    items: [
+      { name: "Node JS", icon: nodejs },
+      { name: "C#", icon: csharp },
+      { name: "Python", icon: python },
+      { name: "Rust", icon: rust },
+    ],
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    category: "Server / Infrastructure",
+    items: [
+      { name: "PostgreSQL", icon: postgres },
+      { name: "MongoDB", icon: mongodb },
+      { name: "MicrosoftSQL", icon: sql },
+    ],
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Angular",
-    icon: angular,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "PowerBI",
-    icon: powerbi,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Rust",
-    icon: rust,
-  },
-  {
-    name: "MicrosoftSQL",
-    icon: sql,
-  },
-  {
-    name: "Travis CI",
-    icon: travis,
-  },
-  {
-    name: "Vite",
-    icon: vite,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgres,
+    category: "CI/CD & DevOps",
+    items: [
+      { name: "git", icon: git },
+      { name: "docker", icon: docker },
+      { name: "Travis CI", icon: travis },
+    ],
   },
 ];
 
@@ -273,86 +235,17 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const socialMedia = [
   {
-    testimonial: "",
-    name: "Mosebo",
-    designation: "IEC Presiding Officer (2014)",
-    company: "Electoral Commission of South Africa (IEC)",
-    image: "",
+    id: "social-media-3",
+    icon: github,
+    link: "https://www.github.com/",
   },
   {
-    testimonial: "",
-    name: "Annah Lamola",
-    designation: "Former TopCD Manager",
-    company: "TopCD Pty (Ltd)",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Bongani Mondlane",
-    designation: "Mentor",
-    company: "Sambe Consulting",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Kabelo Masemola",
-    designation: "Mentor & Former CTO",
-    company: "Sambe Consulting",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Ravi Bhana",
-    designation: "Mentor & Principal Consultant",
-    company: "Sambe Consulting",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Lee Annamalai",
-    designation: "Former CTO",
-    company: "Geo Inteligence Corp (GeoInt)",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Derek Hohls",
-    designation: "Senior Software Developer",
-    company: "Geo Inteligence Corp (GeoInt)",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "Graeme McFerren",
-    designation: "Lead Solutions Architect",
-    company: "Geo Inteligence Corp (GeoInt)",
-    image: "",
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/mahlatsi-mokwele-26468513b/",
   },
 ];
 
-const projects = [
-  {
-    name: "",
-    description: "",
-    tags: [
-      // {
-      //   name: "react",
-      //   color: "blue-text-gradient",
-      // },
-      // {
-      //   name: "mongodb",
-      //   color: "green-text-gradient",
-      // },
-      // {
-      //   name: "tailwind",
-      //   color: "pink-text-gradient",
-      // },
-    ],
-    // image: ,
-    source_code_link: "", //githublink
-  },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, socialMedia };

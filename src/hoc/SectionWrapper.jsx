@@ -26,4 +26,4 @@ export const SectionWrapper = (Component, idName) =>
     );
   };
 
-// export default SectionWrapper
+export default SectionWrapper;

@@ -6,6 +6,7 @@ import mobile from "./appdev.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.svg";
 
 import angular from "./tech/angular.svg";
 import csharp from "./tech/csharp.png";
@@ -74,4 +75,5 @@ export {
   geoint,
   sovtech,
   stefanutti,
+  linkedin,
 };

@@ -3,11 +3,10 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
-  Works,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -21,11 +20,10 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
