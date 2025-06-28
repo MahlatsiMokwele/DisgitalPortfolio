@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin.svg";
+import cell from "./cell.svg";
+import email from "./email.svg";
+import location from "./location.svg";
+import whatsapp from "./whatsapp.svg";
 
 import angular from "./tech/angular.svg";
 import csharp from "./tech/csharp.png";
@@ -76,4 +80,8 @@ export {
   sovtech,
   stefanutti,
   linkedin,
+  cell,
+  email,
+  location,
+  whatsapp,
 };

@@ -1,11 +1,13 @@
+/* eslint-disable react-refresh/only-export-components */
 import { styles } from "../styles";
 import { socialMedia } from "../constants";
+import { SectionWrapper } from "../hoc/SectionWrapper";
 
 const Footer = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+        <p className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px] text-justify">
           &copy; {new Date().getFullYear()} Mahlatsi Mokwele. All rights
           reserved.
         </p>
@@ -26,4 +28,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default SectionWrapper(Footer);

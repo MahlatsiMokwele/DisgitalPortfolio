@@ -33,6 +33,10 @@ import {
   geoint,
   sovtech,
   stefanutti,
+  cell,
+  email,
+  location,
+  whatsapp,
 } from "../assets";
 
 export const navLinks = [
@@ -248,4 +252,30 @@ const socialMedia = [
   },
 ];
 
-export { services, technologies, experiences, socialMedia };
+const contacts = [
+  {
+    id: "email",
+    icon: email,
+    contact: "relebogile.mokwele12@gmail.com",
+    href: "mailto:relebogile.mokwele12@gmail.com",
+  },
+  {
+    id: "cell",
+    icon: cell,
+    contact: "+27 81 708 1657",
+    href: "tel:+27817081657",
+  },
+  {
+    id: "whatsapp",
+    icon: whatsapp,
+    contact: "+27 69 108 4254",
+    href: "https://wa.me/27691084254",
+  },
+  {
+    id: "address",
+    icon: location,
+    contact: "Pretoria, South Africa",
+  },
+];
+
+export { services, technologies, experiences, socialMedia, contacts };
