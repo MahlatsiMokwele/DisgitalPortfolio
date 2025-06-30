@@ -13,14 +13,21 @@ const Footer = () => {
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
-            <img
+            <a
               key={social.id}
-              src={social.icon}
-              alt={social.id}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-                index !== social.length - 1 ? "mr-6" : "mr-0"
-              }`}
-            />
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`mr-6 last:mr-0`}
+            >
+              <img
+                src={social.icon}
+                alt={social.id}
+                className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                  index !== social.length - 1 ? "mr-6" : "mr-0"
+                }`}
+              />
+            </a>
           ))}
         </div>
       </div>

@@ -241,14 +241,14 @@ const experiences = [
 
 const socialMedia = [
   {
-    id: "social-media-3",
+    id: "github",
     icon: github,
-    link: "https://www.github.com/",
+    href: "https://github.com/MahlatsiMokwele",
   },
   {
-    id: "social-media-4",
+    id: "linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/mahlatsi-mokwele-26468513b/",
+    href: "https://www.linkedin.com/in/mahlatsi-mokwele-26468513b/",
   },
 ];
 
